@@ -1,20 +1,22 @@
 # Vehicle Speed Estimation with YOLOv10 
 
-This project implements a vehicle speed estimation system using the YOLOv10 object detection model and OpenCV for video processing. It detects vehicles (Cars, buses, and trucks), tracks their movement across a predefined line, estimates their speed, and flags speeding violations based on a set speed limit. The output is an annotated video with bounding boxes, speed information, and a monitoring panel.
+This project implements a vehicle speed estimation system using the YOLOv10 object detection model and OpenCV for video processing. It detects vehicles, tracks their movement across a predefined line, estimates their speed, and flags speeding violations based on a set speed limit. The output is an annotated video with bounding boxes, speed information, and a monitoring panel.
 
 ![img](img.png)
 
 ## Features
-- Detects and tracks vehicles (classes: car, truck ,bus) using YOLOv10.
+- Detects and tracks vehicles using YOLOv10.
 - Estimates vehicle speed by tracking movement across two reference points.
 - Displays a speed monitoring panel with the speed limit and speeding violation count.
 - Saves the annotated video with bounding boxes, trajectories, and speed information.
 - Optional mouse coordinate display for debugging reference points.
 - Supports GPU acceleration with PyTorch (CUDA) if available.
+- detects jam at routes
+- estimate vehicules speed
 
 ## Prerequisites
-- Python 3.8 or higher
-- CUDA-enabled GPU (optional, for faster inference with YOLOv10)
+- Python 3.11 
+- CUDA-enabled GPU
 - Input video file (`accident.mp4`) in the project directory
 - Pre-trained YOLOv10 model weights (`yolov10n.pt`) in the `models/` directory
 
