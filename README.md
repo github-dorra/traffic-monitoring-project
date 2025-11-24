@@ -43,7 +43,7 @@ python main.py
 
 2. The script will: 
 
--  Load the video **(speed.mp4)** and process it frame by frame.
+-  Load the video **(accident.mp4)** and process it frame by frame.
 - Detect and track vehicles **(cars and trucks and buses and motoCycle and trains and bikes )** using YOLOv10.
 - Estimate vehicle speeds and flag speeding violations (default speed limit: **60 km/h**).
 - Display the processed video with annotations in a window named "RGB".
