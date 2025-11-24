@@ -24,7 +24,7 @@ This project implements a vehicle speed estimation system using the YOLOv10 obje
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/Wassimhfaiedh/Vehicle-Speed-Estimation-with-YOLOv10.git
+   git clone https://github.com/github-dorra/Accident-Deetection-System.git
    cd Vehicle-Speed-Estimation-with-YOLOv10
 2. Install the required dependencies:
 
