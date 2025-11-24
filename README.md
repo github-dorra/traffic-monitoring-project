@@ -15,7 +15,7 @@ This project implements a vehicle speed estimation system using the YOLOv10 obje
 ## Prerequisites
 - Python 3.8 or higher
 - CUDA-enabled GPU (optional, for faster inference with YOLOv10)
-- Input video file (`speed.mp4`) in the project directory
+- Input video file (`accident.mp4`) in the project directory
 - Pre-trained YOLOv10 model weights (`yolov10n.pt`) in the `models/` directory
 
 ## Installation
